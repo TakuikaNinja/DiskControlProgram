@@ -18,5 +18,5 @@ The disassembled file will never be hosted on this repo, and is not intended to 
 The Disk Control Program was developed by Sunsoft and originates from the dev disk lot which was released on Lost Levels.
 
 - [TCRF documentation](https://tcrf.net/Development:Sunsoft_Dev_Disks#Disk_Control)
-- NESdev forum thread: TODO
+- [NESdev forum thread](https://forums.nesdev.org/viewtopic.php?t=26408)
 
