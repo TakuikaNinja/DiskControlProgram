@@ -6,20 +6,24 @@ Note: Data transfer directions are from the console's perspective.
 
 ### Data Output/Status ($4016 read/write)
 
+```
  7  bit  0
  ---- ----
  xxxx xDSx
        ||
        |+-- Status bit (read)
        +--- Data Output bit (write)
+```
 
 ### Data Input ($4017 read)
 
+```
  7  bit  0
  ---- ----
  xxxD DDDx
     | |||
     +-+++-- Data Input
+```
 
 4-bit parallel input. The data read is inverted due to expansion port inputs.
 
@@ -58,6 +62,7 @@ Input format: 0x00 byte, length, destination address hi, destination address lo,
 ### Serial Mode 1: Write (output) serial data
 
 Input format: 0x01 byte, length, source address hi, source address lo
+
 Output format: data bytes
 
 ### Serial Mode 2: Read packets
