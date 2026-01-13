@@ -10,7 +10,7 @@
  xxxx xDSx
        ||
        |+-- Status bit (read)
-       +--- Data Input bit (write)
+       +--- Data to interface (write)
 ```
 
 ### Data Output ($4017 read)
@@ -20,7 +20,7 @@
  ---- ----
  xxxD DDDx
     | |||
-    +-+++-- Data Output
+    +-+++-- Data from interface
 ```
 
 4-bit parallel data, inverted due to expansion port inputs.
